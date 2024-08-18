@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E06ABDF0-1754-4DB6-9DB8-2D32F2E10F4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{136E465F-8C21-4EF5-A915-EA8E810074D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantaziaDesign.Core", "src\FantaziaDesign.Core\FantaziaDesign.Core.csproj", "{560D031B-A572-4901-88E3-FF1860AACEB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantaziaDesign.Events", "src\FantaziaDesign.Events\FantaziaDesign.Events.csproj", "{4F2A79F1-9F1C-42C9-B37A-77E89C7A7D9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantaziaDesign.Interop", "src\FantaziaDesign.Interop\FantaziaDesign.Interop.csproj", "{F1D415A9-8457-4239-A310-E1243FE6C147}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantaziaDesign.Events.Test", "tests\FantaziaDesign.Events.Test\FantaziaDesign.Events.Test.csproj", "{4B3C68F7-A656-4092-8F3A-C2BB90FDF0EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{560D031B-A572-4901-88E3-FF1860AACEB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560D031B-A572-4901-88E3-FF1860AACEB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560D031B-A572-4901-88E3-FF1860AACEB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560D031B-A572-4901-88E3-FF1860AACEB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2A79F1-9F1C-42C9-B37A-77E89C7A7D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2A79F1-9F1C-42C9-B37A-77E89C7A7D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2A79F1-9F1C-42C9-B37A-77E89C7A7D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2A79F1-9F1C-42C9-B37A-77E89C7A7D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D415A9-8457-4239-A310-E1243FE6C147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D415A9-8457-4239-A310-E1243FE6C147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D415A9-8457-4239-A310-E1243FE6C147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D415A9-8457-4239-A310-E1243FE6C147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3C68F7-A656-4092-8F3A-C2BB90FDF0EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3C68F7-A656-4092-8F3A-C2BB90FDF0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3C68F7-A656-4092-8F3A-C2BB90FDF0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3C68F7-A656-4092-8F3A-C2BB90FDF0EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{560D031B-A572-4901-88E3-FF1860AACEB4} = {E06ABDF0-1754-4DB6-9DB8-2D32F2E10F4A}
+		{4F2A79F1-9F1C-42C9-B37A-77E89C7A7D9B} = {E06ABDF0-1754-4DB6-9DB8-2D32F2E10F4A}
+		{F1D415A9-8457-4239-A310-E1243FE6C147} = {E06ABDF0-1754-4DB6-9DB8-2D32F2E10F4A}
+		{4B3C68F7-A656-4092-8F3A-C2BB90FDF0EF} = {136E465F-8C21-4EF5-A915-EA8E810074D5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73A59D8E-BEE7-45FC-BE06-81901B51FC66}
+	EndGlobalSection
+EndGlobal
