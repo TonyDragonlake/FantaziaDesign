@@ -7,3 +7,5 @@ This is the basic class libraries to abstract some framework-independency common
 `FantaziaDesign.Events` is the enhancement to `delegate` and `event` for solving the strong reference issue by using `WeakDelegate` and `WeakEvent`.
 
 `FantaziaDesign.Interop` collects some useful P/Invoke Api from win32 native libraries such as `dwmapi.dll`, `user32.dll` and `gdi32.dll`.
+
+`FantaziaDesign.ResourceManagement` provides several utilities for resource management. In this case, resources management for multi-language (AKA i8n) has been implemented. Two default parsers and its `xsd` schema file are for the language package in `xml` format.

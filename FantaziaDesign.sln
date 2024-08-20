@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantaziaDesign.Interop", "s
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantaziaDesign.Events.Test", "tests\FantaziaDesign.Events.Test\FantaziaDesign.Events.Test.csproj", "{4B3C68F7-A656-4092-8F3A-C2BB90FDF0EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantaziaDesign.ResourceManagement", "src\FantaziaDesign.ResourceManagement\FantaziaDesign.ResourceManagement.csproj", "{76E7D2CD-D051-457C-8AB0-EAFF8CDD5A91}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AAC1704F-33AF-4AF7-8C1D-011E3D97E450}"
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
@@ -45,6 +47,10 @@ Global
 		{4B3C68F7-A656-4092-8F3A-C2BB90FDF0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B3C68F7-A656-4092-8F3A-C2BB90FDF0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B3C68F7-A656-4092-8F3A-C2BB90FDF0EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76E7D2CD-D051-457C-8AB0-EAFF8CDD5A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76E7D2CD-D051-457C-8AB0-EAFF8CDD5A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76E7D2CD-D051-457C-8AB0-EAFF8CDD5A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76E7D2CD-D051-457C-8AB0-EAFF8CDD5A91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{4F2A79F1-9F1C-42C9-B37A-77E89C7A7D9B} = {E06ABDF0-1754-4DB6-9DB8-2D32F2E10F4A}
 		{F1D415A9-8457-4239-A310-E1243FE6C147} = {E06ABDF0-1754-4DB6-9DB8-2D32F2E10F4A}
 		{4B3C68F7-A656-4092-8F3A-C2BB90FDF0EF} = {136E465F-8C21-4EF5-A915-EA8E810074D5}
+		{76E7D2CD-D051-457C-8AB0-EAFF8CDD5A91} = {E06ABDF0-1754-4DB6-9DB8-2D32F2E10F4A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73A59D8E-BEE7-45FC-BE06-81901B51FC66}
