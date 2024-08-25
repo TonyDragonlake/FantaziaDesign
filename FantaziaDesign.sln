@@ -7,16 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E06ABDF0-175
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{136E465F-8C21-4EF5-A915-EA8E810074D5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantaziaDesign.Core", "src\FantaziaDesign.Core\FantaziaDesign.Core.csproj", "{560D031B-A572-4901-88E3-FF1860AACEB4}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantaziaDesign.Events", "src\FantaziaDesign.Events\FantaziaDesign.Events.csproj", "{4F2A79F1-9F1C-42C9-B37A-77E89C7A7D9B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantaziaDesign.Interop", "src\FantaziaDesign.Interop\FantaziaDesign.Interop.csproj", "{F1D415A9-8457-4239-A310-E1243FE6C147}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantaziaDesign.Events.Test", "tests\FantaziaDesign.Events.Test\FantaziaDesign.Events.Test.csproj", "{4B3C68F7-A656-4092-8F3A-C2BB90FDF0EF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantaziaDesign.ResourceManagement", "src\FantaziaDesign.ResourceManagement\FantaziaDesign.ResourceManagement.csproj", "{76E7D2CD-D051-457C-8AB0-EAFF8CDD5A91}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AAC1704F-33AF-4AF7-8C1D-011E3D97E450}"
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
@@ -24,6 +14,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		LICENSE.txt = LICENSE.txt
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantaziaDesign.Core", "src\FantaziaDesign.Core\FantaziaDesign.Core.csproj", "{560D031B-A572-4901-88E3-FF1860AACEB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantaziaDesign.Core.Test", "tests\FantaziaDesign.Core.Test\FantaziaDesign.Core.Test.csproj", "{FA158C55-7AC1-4E8C-898B-D7BEE5EB56C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantaziaDesign.Events", "src\FantaziaDesign.Events\FantaziaDesign.Events.csproj", "{4F2A79F1-9F1C-42C9-B37A-77E89C7A7D9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantaziaDesign.Events.Test", "tests\FantaziaDesign.Events.Test\FantaziaDesign.Events.Test.csproj", "{4B3C68F7-A656-4092-8F3A-C2BB90FDF0EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantaziaDesign.Interop", "src\FantaziaDesign.Interop\FantaziaDesign.Interop.csproj", "{F1D415A9-8457-4239-A310-E1243FE6C147}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantaziaDesign.ResourceManagement", "src\FantaziaDesign.ResourceManagement\FantaziaDesign.ResourceManagement.csproj", "{76E7D2CD-D051-457C-8AB0-EAFF8CDD5A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantaziaDesign.Models.Mvvm", "src\FantaziaDesign.Models.Mvvm\FantaziaDesign.Models.Mvvm.csproj", "{90C95ED9-B25A-4700-97B4-82B741CEC118}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{76E7D2CD-D051-457C-8AB0-EAFF8CDD5A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76E7D2CD-D051-457C-8AB0-EAFF8CDD5A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76E7D2CD-D051-457C-8AB0-EAFF8CDD5A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA158C55-7AC1-4E8C-898B-D7BEE5EB56C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA158C55-7AC1-4E8C-898B-D7BEE5EB56C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA158C55-7AC1-4E8C-898B-D7BEE5EB56C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA158C55-7AC1-4E8C-898B-D7BEE5EB56C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C95ED9-B25A-4700-97B4-82B741CEC118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C95ED9-B25A-4700-97B4-82B741CEC118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C95ED9-B25A-4700-97B4-82B741CEC118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C95ED9-B25A-4700-97B4-82B741CEC118}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +73,8 @@ Global
 		{F1D415A9-8457-4239-A310-E1243FE6C147} = {E06ABDF0-1754-4DB6-9DB8-2D32F2E10F4A}
 		{4B3C68F7-A656-4092-8F3A-C2BB90FDF0EF} = {136E465F-8C21-4EF5-A915-EA8E810074D5}
 		{76E7D2CD-D051-457C-8AB0-EAFF8CDD5A91} = {E06ABDF0-1754-4DB6-9DB8-2D32F2E10F4A}
+		{FA158C55-7AC1-4E8C-898B-D7BEE5EB56C6} = {136E465F-8C21-4EF5-A915-EA8E810074D5}
+		{90C95ED9-B25A-4700-97B4-82B741CEC118} = {E06ABDF0-1754-4DB6-9DB8-2D32F2E10F4A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73A59D8E-BEE7-45FC-BE06-81901B51FC66}

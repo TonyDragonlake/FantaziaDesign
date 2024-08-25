@@ -3,6 +3,7 @@ using System.Reflection;
 using System.Linq.Expressions;
 using System.Linq;
 using System.Reflection.Emit;
+using System.Threading.Tasks;
 
 namespace FantaziaDesign.Core
 {
@@ -10,6 +11,7 @@ namespace FantaziaDesign.Core
 	public delegate void RefAction<T1, T2>(ref T1 arg1, ref T2 arg2);
 	public delegate void SingleRefAction<T1, T2>(T1 arg1, ref T2 arg2);
 	public delegate void SingleRefAction<T1, T2, T3>(T1 arg1, T2 arg2, ref T3 arg3);
+	public delegate Task<TResult> AsyncEventHandler<TResult>(object sender, EventArgs e);
 
 	public static class ReflectionUtil
 	{
