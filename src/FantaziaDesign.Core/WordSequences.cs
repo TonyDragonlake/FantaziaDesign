@@ -259,7 +259,7 @@ namespace FantaziaDesign.Core
 			m_word2 = value;
 		}
 
-		private void SetLoWordLoByte(byte value)
+		public void SetLoWordLoByte(byte value)
 		{
 			if (EndianLayouts.IsLittleEndian)
 			{
@@ -269,7 +269,7 @@ namespace FantaziaDesign.Core
 			m_word2.LoByte = value;
 		}
 
-		private void SetLoWordHiByte(byte value)
+		public void SetLoWordHiByte(byte value)
 		{
 			if (EndianLayouts.IsLittleEndian)
 			{
@@ -298,7 +298,7 @@ namespace FantaziaDesign.Core
 			m_word1 = value;
 		}
 
-		private void SetHiWordLoByte(byte value)
+		public void SetHiWordLoByte(byte value)
 		{
 			if (EndianLayouts.IsLittleEndian)
 			{
@@ -308,7 +308,7 @@ namespace FantaziaDesign.Core
 			m_word1.LoByte = value;
 		}
 
-		private void SetHiWordHiByte(byte value)
+		public void SetHiWordHiByte(byte value)
 		{
 			if (EndianLayouts.IsLittleEndian)
 			{
